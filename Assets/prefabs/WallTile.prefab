@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 33213620594348836}
   - component: {fileID: 65930609647222050}
   - component: {fileID: 23480304006748552}
-  - component: {fileID: 4284869232690397092}
   m_Layer: 0
-  m_Name: FloorTile
+  m_Name: WallTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +72,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf3776d26e845b647abdcd000d9aba39, type: 2}
+  - {fileID: 2100000, guid: 2837f1472b88afe47b9cb7143d4b76ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,16 +93,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4284869232690397092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680193034015120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0396f7dbdee916d4780aa912ce3bd6fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wallTile: {fileID: 1680193034015120, guid: 4e0ca575c3d291546a1a1e3953567bce, type: 3}
